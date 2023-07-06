@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <button type="button">NEW BOOK</button>
+    <form class="hidden">
+        <label for="title">Title:</label>
+        <input type="text" id="title">
+        <label for="author">Author:</label>
+        <input type="text" id="author">
+        <label for="pages"># of pages:</label>
+        <input type="number" id="pages">
+        <label for="read">Have you read it yet?</label>
+        <input type="checkbox" id="read">
+    </form>
+    <h2>Books:</h2>
+    <div id="books-list"></div>
+    <div id="book-details" class="hidden">
+        <h2>Contact Details:</h2>
+        <p>Title: <span class="title" id="title-span"></span></p>
+        <p>Author: <span class="author" id="author-span"></span></p>
+        <p>Pages: <span class="pages" id="pages-span"></span></p>
+        <p>Read? <span class="read" id="read-san"></span></p>
+
+        <button class="btn-primary delete" type="button">Delete</button>
+      </div>
+</body>
+</html>
